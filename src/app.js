@@ -16,7 +16,7 @@ import filtersReducer from './reducers/filters';
 const store = configureStore();
 console.log(store.getState());
 
-store.dispatch(addExpense({description:'Rent Bill ',amount:400,createdAt:4000}));
+// store.dispatch(addExpense({description:'Rent Bill ',amount:400,createdAt:4000}));
 
 store.dispatch(addExpense({description:'Water Bill',amount:700,createdAt:8000}));
 
